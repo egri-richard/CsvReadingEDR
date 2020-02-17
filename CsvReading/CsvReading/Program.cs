@@ -32,5 +32,12 @@ namespace CsvReading
             _price = price;
         }
 
+        public string Brand { get => _brand; set => _brand = value; }
+        public string Name { get => _name; set => _name = value; }
+        public int Year { get => _year; set => _year = value; }
+        public int Distance { get => _distance; set => _distance = value; }
+        public string Fuel { get => _fuel; set => _fuel = value; }
+        public int Price { get => _price; set => _price = value; }
+
     }
 }
